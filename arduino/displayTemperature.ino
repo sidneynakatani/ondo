@@ -3,7 +3,7 @@
 #include <Adafruit_SSD1306.h>
 
 #include <DHT.h>
-#define DHTPIN A1       // Analog pin A1 
+#define DHTPIN A2       // Analog pin A2
 #define DHTTYPE DHT11   // DHT 11
 #define OLED_RESET 4
 Adafruit_SSD1306 display(OLED_RESET);
